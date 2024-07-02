@@ -36,7 +36,7 @@
     <style>
         /* Add the CSS styles here */
         .img {
-            background-image: url(${pageContext.request.contextPath}/images/bg-1.jpg);
+            background-image: url("static/images/bg-1.jpg");
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -55,7 +55,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 <div class="wrap d-md-flex">
-                    <div class="img" style="background-image: url(src/main/resources/images/bg-1.jpg);">
+                    <div class="img">
                     </div>
                     <div class="login-wrap p-4 p-md-5">
                         <div class="d-flex">
